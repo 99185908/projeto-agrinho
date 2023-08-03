@@ -1,0 +1,25 @@
+.banner-home {
+    background-image: url('../assets/rio.png');
+}
+
+.banner-experiencias {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../assets/plantas.png');
+    mix-blend-mode: normal;
+}
+
+.banner-principal {
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-titulo {
+    font-family: var(--fonte-titulo);
+    font-size: 32px;
+    line-height: 42px;
+}
